@@ -1,0 +1,32 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# Node / 前端构建产物
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 运行时上传目录
+uploads/
+
+# 日志
+*.log
+logs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.trae/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local

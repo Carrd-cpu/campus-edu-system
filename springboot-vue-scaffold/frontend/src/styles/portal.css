@@ -1,0 +1,158 @@
+.portal-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 24px 56px;
+  color: #1a1a1a;
+}
+
+.portal-page h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: -0.03em;
+}
+
+.portal-page .lead {
+  margin: 8px 0 0;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.portal-card {
+  margin-top: 18px;
+  background: #fff;
+  border: 1px solid #eceef2;
+  border-radius: 18px;
+  padding: 20px 22px 12px;
+  box-shadow: 0 1px 2px rgba(26, 35, 48, 0.03);
+}
+
+.portal-card h2 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.portal-page .el-table {
+  --el-table-border-color: transparent;
+  --el-table-header-bg-color: transparent;
+  --el-table-header-text-color: #8b919a;
+  --el-table-text-color: #1f2430;
+  --el-table-row-hover-bg-color: #faf7f6;
+  --el-table-bg-color: transparent;
+  --el-table-tr-bg-color: transparent;
+}
+
+.portal-page .el-table::before,
+.portal-page .el-table__inner-wrapper::before {
+  display: none;
+}
+
+.portal-page .el-table th.el-table__cell {
+  font-weight: 500;
+  font-size: 13px;
+  border-bottom: 1px solid #f0f1f4;
+  padding: 8px 0 12px;
+}
+
+.portal-page .el-table td.el-table__cell {
+  border-bottom: 1px solid #f3f4f6;
+  padding: 15px 0;
+}
+
+.portal-page .el-table .el-table__row:last-child td.el-table__cell {
+  border-bottom: none;
+}
+
+.portal-page .el-table .cell {
+  line-height: 1.5;
+  padding-left: 0;
+  padding-right: 12px;
+}
+
+.portal-page .el-table .course .cell {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.portal-page .el-table .muted .cell {
+  color: #6b7280;
+}
+
+.portal-page .el-table .num .cell {
+  font-variant-numeric: tabular-nums;
+  color: #4b5160;
+}
+
+.portal-page .el-table .score .cell,
+.portal-page .el-table .point .cell {
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  color: #1a1a1a;
+}
+
+/* 用户端顶栏账号下拉 */
+.user-account-dropdown.el-popper,
+.user-account-dropdown.el-dropdown__popper {
+  border: none !important;
+  border-radius: 14px !important;
+  padding: 6px !important;
+  background: #fff !important;
+  box-shadow: 0 16px 40px rgba(26, 26, 26, 0.12) !important;
+  min-width: 0 !important;
+  width: max-content !important;
+}
+
+.user-account-dropdown .el-dropdown-menu {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  min-width: 0 !important;
+  width: max-content !important;
+}
+
+.user-account-dropdown .el-dropdown-menu__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 550;
+  color: #374151;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.user-account-dropdown .el-dropdown-menu__item .el-icon {
+  font-size: 15px;
+  color: #9ca3af;
+}
+
+.user-account-dropdown .el-dropdown-menu__item:not(.is-disabled):hover,
+.user-account-dropdown .el-dropdown-menu__item:focus {
+  background: rgba(230, 57, 53, 0.08) !important;
+  color: #e63935 !important;
+}
+
+.user-account-dropdown .el-dropdown-menu__item:not(.is-disabled):hover .el-icon,
+.user-account-dropdown .el-dropdown-menu__item:focus .el-icon {
+  color: #e63935;
+}
+
+.user-account-dropdown .el-dropdown-menu__item.is-logout {
+  margin-top: 4px;
+  color: #6b7280;
+}
+
+.user-account-dropdown .el-dropdown-menu__item.is-logout:hover,
+.user-account-dropdown .el-dropdown-menu__item.is-logout:focus {
+  background: rgba(230, 57, 53, 0.08) !important;
+  color: #e63935 !important;
+}
+
+.user-account-dropdown .el-popper__arrow,
+.user-account-dropdown .el-popper__arrow::before {
+  display: none !important;
+}
